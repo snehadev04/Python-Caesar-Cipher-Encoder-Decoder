@@ -10,7 +10,7 @@ print(logo)
 # Define a function to perform the Caesar cipher encryption or decryption
 def caesar_cipher(text, shift, direction):
     # Initialize an empty string to store the result
-    cesar_text = ""
+    caesar_text = ""
     # Adjust the shift for decryption
     if direction == "decode":
         shift *= -1
@@ -23,12 +23,12 @@ def caesar_cipher(text, shift, direction):
             # Calculate the new position after shifting
             new_position = (position + shift) % 26
             # Append the shifted character to the result
-            cesar_text += alphabet[new_position]
+            caesar_text += alphabet[new_position]
         else:
             # If the character is not a letter, keep it unchanged
-            cesar_text += char
+            caesar_text += char
     # Print the result
-    print(f"Your {direction}d message is: {cesar_text}")
+    print(f"Your {direction}d message is: {caesar_text}")
 
 # Initialize a variable to control the loop
 should_end = False
