@@ -30,8 +30,7 @@ No additional libraries or dependencies required.
 Feel free to contribute by suggesting improvements or reporting issues.
 Fork the repository, make your changes, and submit a pull request.
 
-## License:
-This project is licensed under the MIT License - see the LICENSE file for details.
+
 
 
 
